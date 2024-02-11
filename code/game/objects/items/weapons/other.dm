@@ -553,3 +553,119 @@
 	target.faction = user.faction
 	playsound(src, pick(use_sound), 25)
 	qdel(src)
+
+//Ashlander Smithing Items
+	//Molds
+/obj/item/smithing/mold/blunder
+	name = "Blunderbuss mold"
+	desc = "A sand mold shaped like the barrel of a blunderbuss."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-blunder"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/mechanisms
+	name = "Mechanisms mold"
+	desc = "A sand mold shaped like various mechanism. Necessary for the construction of primitive firearms."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-mechanisms"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/gunbarrel
+	name = "Gunbarrel mold"
+	desc = "A sand mold shaped like a gun barrel. Only capable of producing smoothbore barrels."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-gunbarrel"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/arrow
+	name = "Arrowhead mold"
+	desc = "A sand mold shaped like arrowheads. Seems like this mold can be used to make multiple heads."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-arrow"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/pick
+	name = "Pick mold"
+	desc = "A sand mold shaped like pick head. Essential in the creation of metal mining tools."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-pick"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/khopesh
+	name = "Khopesh mold"
+	desc = "A sand mold shaped resembling a khopesh, a type of scythe sword."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-khopesh"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/hatchet
+	name = "Hatchet mold"
+	desc = "A sand mold shaped resembling a hatchet head. A sign that a civilization has moved beyond the stone age."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-hatchet"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/mold/spear
+	name = "Spearhead mold"
+	desc = "A sand mold shaped resembling a spear head. Vital component to what was the king of the battlefield til firearms."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "sandmold-spear"
+	w_class = ITEMSIZE_SMALL
+
+	//Parts
+
+/obj/item/smithing/part/blunder
+	name = "Blunderbuss barrel"
+	desc = "A bronze barrel for a blunderbuss. Though it needs more parts before it is complete."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-blunder"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/mechanisms
+	name = "Bronze Mechanisms"
+	desc = "A bronze set of mechanisms necessary for the construction of flintlock firearms."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-mechanisms"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/gunbarrel
+	name = "Bronze Gunbarrel"
+	desc = "A gunmetal bronze smoothbore barrel for primitive firearm."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-gunbarrel"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/arrow
+	name = "Bronze Arrowheads"
+	desc = "A pair of bronze arrowheads, shaped expertly to pierce armor."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-arrow"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/pick
+	name = "Bronze Pick Head"
+	desc = "A bronze head for a pickaxe. Kind of useless without a handle."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-pickaxe"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/khopesh
+	name = "Bronze Khopesh Blade"
+	desc = "A bronze scythe sword. Not that much use until it has a handle."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-khopesh"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/hatchet
+	name = "Bronze Hatchet Head"
+	desc = "A bronze hatchet head. It probably needs to a handle."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-hatchet"
+	w_class = ITEMSIZE_SMALL
+
+/obj/item/smithing/part/spear
+	name = "Bronze Spearhead"
+	desc = "A bronze spearhead, you got the pointy bit now you need to add the stick part."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "bronzepart-spear"
+	w_class = ITEMSIZE_SMALL

@@ -32,7 +32,12 @@
 					CAT_TOOL,
 					CAT_FURNITURE,
 				),
-				CAT_PRIMAL = CAT_NONE,
+				CAT_PRIMAL = list(
+					CAT_PRIMCLOTH,
+					CAT_PRIMTOOL,
+					CAT_PRIMWEAP,
+					CAT_SMITHING
+				),
 				CAT_FOOD = list(
 					CAT_BREAD,
 					CAT_BURGER,

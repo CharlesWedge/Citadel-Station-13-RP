@@ -320,9 +320,12 @@
 /area/tether/outpost/exploration_plains
 	name = "\improper Plains Exploration Zone"
 	icon_state = "green"
+/area/tether/outpost/tram
+	name= "\improper Orange Line Tram Route"
 /area/tether/outpost/exploration_shed
 	name = "\improper Plains Entrance Shed"
 
+// Substations
 /area/maintenance/substation/medsec
 	name = "\improper MedSec Substation"
 /area/maintenance/substation/mining

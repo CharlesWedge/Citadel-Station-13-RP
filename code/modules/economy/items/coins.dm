@@ -77,6 +77,26 @@
 	name = "supermatter coin"
 	icon_state = "coin_supermatter"
 
+//Scorian Coins
+/obj/item/coin/sclead
+	name = "Scorian lead coin"
+	desc = "A Scorian native coin made of lead. The face depicts an elderstone."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "coin_scoripb"
+
+/obj/item/coin/sccopper
+	name = "Scorian copper coin"
+	desc = "A Scorian native coin made of copper. The face depicts crude image of a goliath."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "coin_scoric"
+
+/obj/item/coin/scbronze
+	name = "Scorian bronze coin"
+	desc = "A Scorian native coin made of bronze. The face depicts feminine figure of great religious reverance."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "coin_scoribr"
+
+
 /obj/item/coin/attackby(obj/item/W, mob/user)
 	if(istype(W,/obj/item/stack/cable_coil))
 		var/obj/item/stack/cable_coil/CC = W

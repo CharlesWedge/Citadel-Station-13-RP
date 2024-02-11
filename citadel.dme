@@ -830,6 +830,7 @@
 #include "code\datums\recipe\crafting_recipes\recipes_misc.dm"
 #include "code\datums\recipe\crafting_recipes\recipes_primal.dm"
 #include "code\datums\recipe\crafting_recipes\recipes_robot.dm"
+#include "code\datums\recipe\crafting_recipes\recipes_smithing.dm"
 #include "code\datums\recipe\crafting_recipes\recipes_weapon_and_ammo.dm"
 #include "code\datums\recipe\material_recipes\furniture.dm"
 #include "code\datums\recipe\material_recipes\structures.dm"

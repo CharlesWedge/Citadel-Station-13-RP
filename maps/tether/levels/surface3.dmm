@@ -6384,7 +6384,8 @@
 /obj/machinery/access_button/airlock_exterior{
 	master_tag = "southciv_airlock";
 	pixel_x = -8;
-	pixel_y = -25
+	pixel_y = -25;
+	command = "cycle_ext"
 	},
 /obj/map_helper/airlock/door/ext_door,
 /obj/machinery/door/airlock/glass_external{
@@ -23763,7 +23764,8 @@
 /obj/machinery/access_button/airlock_interior{
 	master_tag = "southciv_airlock";
 	pixel_x = 8;
-	pixel_y = 25
+	pixel_y = 25;
+	command = "cycle_int"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4

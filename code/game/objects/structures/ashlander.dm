@@ -443,3 +443,11 @@
 	if(!ui)
 		ui = new(user, src, "ChemPrimi", name)
 		ui.open()
+
+/obj/item/coindie
+	name = "Scorian Coin Die"
+	desc = "A set of metallic stamps used the primitive minting. Such die would be invaluable to the Scori who made this set."
+	icon = 'icons/obj/lavaland.dmi'
+	icon_state = "coindie"
+	tool_behaviour = TOOL_COINING
+

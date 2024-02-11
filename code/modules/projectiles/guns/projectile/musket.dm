@@ -104,7 +104,7 @@
 
 /obj/item/gun/ballistic/musket/tribal
 	name = "tribal musket"
-	desc = "A musket housed in bone furnishing and held together with sinew. It uses as obsidian striker."
+	desc = "A bronze musket housed in bone furnishing and held together with sinew. It uses an anomalous stone as a striker."
 	icon_state = "musket-scor"
 	item_state = "musket-scor"
 	wielded_item_state = "musket-scor-wielded"
@@ -126,11 +126,11 @@
 	icon_state = "flintlock-brass"
 	item_state = "deagleg"
 
-
 /obj/item/gun/ballistic/musket/pistol/tribal
 	name = "tribal flintlock"
-	desc = "A flintlock pistol cased in bone and sinew. It uses an obsidian striking mechanism, perhaps it should be called an obsidian-lock?"
+	desc = "A flintlock pistol cased in bone and sinew. It uses an anomalous stone as a striking mechanism."
 	icon_state = "flintlock-scor"
+	item_state = "deagleg"
 
 /obj/item/gun/ballistic/musket/blunderbuss
 	name = "blunderbuss"
@@ -141,3 +141,12 @@
 	caliber = "blunderbuss"
 
 	ammo_type = /obj/item/ammo_casing/musket/blunderbuss
+
+/obj/item/gun/ballistic/musket/blunderbuss/tribal
+	name = "tribal blunderbuss"
+	desc = "A tribal made blunderbuss fashioned from gunmetal bronze allow bone and sinew. Its firing mechanism uses an anomalous stone."
+	icon_state = "blunderbuss-scor"
+	item_state = "blunderbuss-scor"
+	wielded_item_state = "blunderbuss-scor-wielded"
+
+	ammo_type = /obj/item/ammo_casing/musket/blunderbuss/scori

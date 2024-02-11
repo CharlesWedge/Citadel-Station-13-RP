@@ -18,10 +18,13 @@
 #define TOOL_DRILL			"drill"
 #define TOOL_SCALPEL		"scalpel"
 #define TOOL_SAW			"saw"
-//* Glassworking
-#define TOOL_BLOW			"blowing_rod"
-#define TOOL_GLASS_CUT		"glasskit"
 #define TOOL_BONESET		"bonesetter"
+//* Primitive
+#define TOOL_BLOW			"blowing_rod" //I should use these later
+#define TOOL_GLASS_CUT		"glasskit"
+#define TOOL_SMELTER		"smelter"
+#define TOOL_COINING		"coin_die"
+#define TOOL_MOLD			"mold_maker"
 
 /// Yes, this is a real global. No, you shouldn't touch this for no reason.
 /// Add tools to this when they get states in the default icon file for:

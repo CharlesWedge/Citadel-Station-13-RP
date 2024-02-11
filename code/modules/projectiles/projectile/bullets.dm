@@ -410,6 +410,11 @@
 	embed_chance = -1
 	holy = TRUE
 
+/obj/projectile/bullet/pellet/blunderbuss/diamond //Just Better then regular shot. Makes the Blunderbuss more viable.
+	damage = 12
+	pellets = 10
+	spread_step = 50
+
 //10 Gauge Shot
 /obj/projectile/bullet/heavy_shotgun
 	name = "heavy slug"

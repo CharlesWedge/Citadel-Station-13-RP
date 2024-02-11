@@ -323,6 +323,19 @@
 /obj/item/melee/ashlander/elder/is_hot()
 	return isOn()
 
+/obj/item/melee/ashlander/khopesh
+	name = "Scorian khopesh"
+	desc = "A bronze scythe sword made by the Ashlanders of Surt. Though a step of up from bone weapons, it cannot be graced by the sacred flames of the Elder Stone."
+	icon_state = "khopesh"
+	attack_sound = 'sound/weapons/bladeslice.ogg'
+	damage_force = 30
+	throw_force = 15
+	w_class = ITEMSIZE_NORMAL
+	slot_flags = SLOT_BELT
+	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut", "chopped")
+	sharp = 1
+	edge = 1
+
 /obj/item/melee/shiv
 	name = "shiv"
 	desc = "A crude improvised weapon. Although visually frightening, shivs are usually more effective for maiming than killing."

@@ -21,6 +21,9 @@
 	var/amt_silver = 0
 	var/amt_copper = 0
 	var/amt_iron = 0
+	var/amt_sclead = 0
+	var/amt_sccopper = 0
+	var/amt_scbronze = 0
 
 	for (var/obj/item/coin/C in contents)
 		if (istype(C,/obj/item/coin/supermatter))
@@ -47,6 +50,13 @@
 			amt_copper++;
 		if (istype(C,/obj/item/coin/iron))
 			amt_iron++;
+		if (istype(C,/obj/item/coin/sclead))
+			amt_sclead++;
+		if (istype(C,/obj/item/coin/sccopper))
+			amt_sccopper++;
+		if (istype(C,/obj/item/coin/scbronze))
+			amt_scbronze++;
+
 
 	var/dat = "<b>The contents of the moneybag reveal...</b><br>"
 	if (amt_supermatter)
@@ -73,6 +83,12 @@
 		dat += "Copper coins: [amt_copper] <A href='?src=\ref[src];remove=copper'>Remove one</A><br>"
 	if (amt_iron)
 		dat += "Iron coins: [amt_iron] <A href='?src=\ref[src];remove=iron'>Remove one</A><br>"
+	if (amt_sclead)
+		dat += "Scorian Lead coins: [amt_sclead] <A href='?src=\ref[src];remove=iron'>Remove one</A><br>"
+	if (amt_iron)
+		dat += "Scorian Copper coins: [amt_sccopper] <A href='?src=\ref[src];remove=iron'>Remove one</A><br>"
+	if (amt_iron)
+		dat += "Scorian Bronze coins: [amt_scbronze] <A href='?src=\ref[src];remove=iron'>Remove one</A><br>"
 	user << browse("[dat]", "window=moneybag")
 
 /obj/item/moneybag/attackby(obj/item/W, mob/user)
@@ -120,10 +136,24 @@
 				COIN = locate(/obj/item/coin/copper,src.contents)
 			if("iron")
 				COIN = locate(/obj/item/coin/iron,src.contents)
+			if("scorian lead")
+				COIN = locate(/obj/item/coin/sclead,src.contents)
+			if("scorian copper")
+				COIN = locate(/obj/item/coin/sccopper,src.contents)
+			if("scorian bronze")
+				COIN = locate(/obj/item/coin/scbronze,src.contents)
 		if(!COIN)
 			return
 		COIN.loc = src.loc
 	return
+
+/obj/item/moneybag/scori
+	icon = 'icons/obj/lavaland.dmi'
+	name = "Scorian coinpurse"
+	icon_state = "moneybag-scori"
+	damage_force = 10.0
+	throw_force = 2.0
+	w_class = ITEMSIZE_LARGE
 
 
 /obj/item/moneybag/vault/Initialize(mapload)

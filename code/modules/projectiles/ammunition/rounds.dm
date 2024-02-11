@@ -591,6 +591,19 @@
 	projectile_type = /obj/projectile/bullet/pellet/blunderbuss/silver
 	materials_base = list("lead" = 500, "silver" = 500)
 
+/obj/item/ammo_casing/musket/blunderbuss/scori
+	name = "shot"
+	desc = "A bundle of lead balls and other assorted shrapnel. It is wrapped in goliath hide"
+	icon_state = "scoribuss"
+	materials_base = list("lead" = 500)
+
+/obj/item/ammo_casing/musket/blunderbuss/scori/ap
+	name = "diamond shot"
+	desc = "A bundle of diamonds meant to be stuffed into a blunderbuss. It is wrapped in goliath hide"
+	icon_state = "diamondbuss"
+	projectile_type = /obj/projectile/bullet/pellet/blunderbuss/diamond
+	materials_base = list("diamond" = 500)
+
 //Ten Gauge Rounds for Exotic Shotguns
 /obj/item/ammo_casing/a10g
 	name = "heavy shotgun slug"
