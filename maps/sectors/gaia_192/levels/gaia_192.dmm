@@ -10056,9 +10056,7 @@
 /turf/simulated/floor/outdoors/ice/classp/indoors,
 /area/class_m/outside/winter)
 "Qw" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
+/obj/structure/bed/chair,
 /turf/simulated/floor/outdoors/beach/sand/desert/classm{
 	name = "beach"
 	},
@@ -10297,8 +10295,14 @@
 /turf/simulated/floor/carpet/patterened,
 /area/class_m/inside/entrance)
 "RU" = (
-/turf/space/basic,
-/area/space)
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor/water/deep/classm,
+/area/class_m/outside)
 "RW" = (
 /obj/effect/mist,
 /obj/machinery/computer/security/telescreen{
@@ -10509,6 +10513,9 @@
 	},
 /obj/structure/railing{
 	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/floor/water/deep/classm,
 /area/class_m/outside)
@@ -41900,7 +41907,7 @@ QM
 oT
 oT
 oT
-pQ
+RU
 Xw
 ur
 oT
@@ -46139,7 +46146,7 @@ bA
 bA
 JW
 nj
-RU
+nF
 nF
 nF
 MX
