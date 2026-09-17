@@ -179,7 +179,7 @@
 	cost = 25
 	allow_duplicates = FALSE
 
-	/datum/map_template/submap/level_specific/class_h/guerillamountains
+/datum/map_template/submap/level_specific/class_h/guerillamountains
 	name = "Guerilla Mountain Camp"
 	suffix = "guerillamountains.dmm"
 	cost = 25
