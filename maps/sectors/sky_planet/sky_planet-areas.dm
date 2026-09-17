@@ -6,7 +6,7 @@
 //Sky
 
 /area/sector/sky_planet/sky
-	name = "Lythios 43a Sky"
+	name = "Motov'maal Sky"
 	icon_state = "blue"
 	requires_power = 0
 	ambience = AMBIENCE_GENERIC
@@ -14,7 +14,7 @@
 	ambience = list('sound/ambience/skyplanetsky.ogg')
 
 /area/sector/sky_planet/ground
-	name = "Lythios 43a ground"
+	name = "Motov'maal Surface"
 	requires_power = 0
 	icon_state = "unexplored"
 	initial_gas_mix = ATMOSPHERE_ID_SKYPLANET_GROUND
@@ -209,11 +209,11 @@
 //Ground
 
 /area/sector/sky_planet/rock
-	name = "Lythios 43a Rocks"
+	name = "Motov'maal Rocks"
 	icon_state = "purple"
 
 /area/sector/sky_planet/poi
-	name = "Lythios 43a POI"
+	name = "Motov'maal POI"
 	icon_state = "green"
 	requires_power = 1
 	sound_env = SMALL_ENCLOSED
