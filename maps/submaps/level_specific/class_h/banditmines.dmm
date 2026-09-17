@@ -209,10 +209,6 @@
 	outdoors = 1
 	},
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"jH" = (
-/obj/structure/boulder,
-/turf/space/basic,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "jQ" = (
 /obj/effect/floor_decal/tracks{
 	dir = 6
@@ -1483,7 +1479,7 @@ IA
 QE
 IA
 IA
-jH
+gq
 qg
 ll
 rE

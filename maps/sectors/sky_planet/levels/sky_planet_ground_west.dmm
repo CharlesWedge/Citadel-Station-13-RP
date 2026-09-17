@@ -23,6 +23,10 @@
 	},
 /turf/simulated/floor/outdoors/rocks/outdoors,
 /area/sector/sky_planet/ground)
+"aK" = (
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "aT" = (
 /obj/structure/salvageable/data_os,
 /turf/simulated/floor/tiled/monotechmaint,
@@ -78,11 +82,6 @@
 /obj/item/reagent_containers/glass/beaker/vial/random,
 /turf/simulated/floor,
 /area/sector/sky_planet/outpost)
-"cN" = (
-/obj/machinery/light/no_nightshift,
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "cP" = (
 /obj/structure/bed/chair/pew/left{
 	dir = 1
@@ -123,10 +122,6 @@
 	},
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/sky_planet/ground)
-"eA" = (
-/obj/structure/dispenser/oxygen,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "eJ" = (
 /turf/simulated/shuttle/wall/voidcraft/green,
 /area/turbolift/skyplanet_outpost/lower)
@@ -141,10 +136,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/techfloor/lythios43c,
 /area/sector/sky_planet/ground)
-"fN" = (
-/obj/machinery/door/airlock/glass/civilian,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "gi" = (
 /obj/structure/flora/rock/rock2,
 /turf/simulated/floor/outdoors/rocks/outdoors,
@@ -187,10 +178,6 @@
 	},
 /turf/simulated/floor/outdoors/rocks/outdoors,
 /area/sector/sky_planet/ground)
-"ib" = (
-/obj/spawner/window/low_wall/firelocks,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "id" = (
 /turf/simulated/floor/outdoors/dirt/indoors,
 /area/sector/sky_planet/station_city/power)
@@ -341,6 +328,13 @@
 /obj/structure/marker_beacon/green,
 /turf/simulated/floor/outdoors/rocks/outdoors,
 /area/sector/sky_planet/ground)
+"oa" = (
+/obj/machinery/light/no_nightshift{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "od" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/outdoors/ash_sand/indoors,
@@ -376,10 +370,6 @@
 /obj/effect/debris/cleanable/blood,
 /turf/simulated/floor/cult,
 /area/sector/sky_planet/rock)
-"pI" = (
-/obj/machinery/vending/wallmed1/public,
-/turf/simulated/wall/r_wall,
-/area/sector/sky_planet/outpost)
 "pW" = (
 /obj/structure/sandbag,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
@@ -605,13 +595,6 @@
 	},
 /turf/simulated/wall/r_wall,
 /area/sector/sky_planet/outpost)
-"yH" = (
-/obj/machinery/light/no_nightshift{
-	dir = 1
-	},
-/obj/machinery/suit_storage_unit,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "yY" = (
 /mob/living/simple_mob/mechanical/corrupt_maint_drone/matriarch,
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -643,8 +626,8 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/water/acid/outdoors,
 /area/sector/sky_planet/ground)
-"zQ" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
+"zx" = (
+/obj/spawner/window/low_wall/firelocks,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost)
 "Am" = (
@@ -683,13 +666,6 @@
 /obj/structure/event/prop/light3,
 /turf/simulated/floor/outdoors/dirt/indoors,
 /area/sector/sky_planet/station_city/power)
-"AR" = (
-/obj/structure/table/standard,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "AS" = (
 /obj/structure/flora/rock/alternative_1,
 /turf/simulated/floor/outdoors/rocks/outdoors,
@@ -739,6 +715,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_dirty/indoors,
+/area/sector/sky_planet/outpost)
+"Dk" = (
+/obj/machinery/door/airlock/glass/civilian,
+/turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost)
 "DG" = (
 /obj/machinery/power/rtg/advanced,
@@ -815,6 +795,12 @@
 "FM" = (
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/sky_planet/rock)
+"FQ" = (
+/obj/machinery/vending/wallmed1/public{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall,
+/area/sector/sky_planet/outpost)
 "FV" = (
 /turf/simulated/wall/r_wall,
 /area/sector/sky_planet/rock)
@@ -894,6 +880,13 @@
 /obj/machinery/sleeper/survival_pod,
 /turf/simulated/floor/tiled/techfloor/virgo2,
 /area/sector/sky_planet/ground)
+"IJ" = (
+/obj/machinery/power/thermoregulator,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/sector/sky_planet/outpost)
 "IW" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/tiled/techfloor,
@@ -1000,11 +993,6 @@
 	},
 /turf/simulated/floor,
 /area/sector/sky_planet/outpost)
-"LV" = (
-/obj/structure/table/standard,
-/obj/machinery/cell_charger,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "Mh" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
@@ -1015,13 +1003,6 @@
 /obj/structure/loot_pile/mecha/honker,
 /turf/simulated/floor,
 /area/sector/sky_planet/rock)
-"Mp" = (
-/obj/machinery/power/thermoregulator,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/simulated/floor,
-/area/sector/sky_planet/outpost)
 "Mw" = (
 /obj/structure/flora/rock/rock2,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
@@ -1063,12 +1044,6 @@
 /obj/machinery/mining/drill,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/sky_planet/ground)
-"NC" = (
-/obj/machinery/vending/wallmed1/public{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall,
-/area/sector/sky_planet/outpost)
 "NJ" = (
 /mob/living/simple_mob/mechanical/hivebot,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
@@ -1152,6 +1127,11 @@
 /obj/effect/floor_decal/industrial/halfstair,
 /turf/simulated/floor/outdoors/dirt/indoors,
 /area/sector/sky_planet/station_city/power)
+"QD" = (
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "QE" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 4
@@ -1232,13 +1212,6 @@
 /obj/structure/flora/rock/rock4,
 /turf/simulated/floor/outdoors/dirt/indoors,
 /area/sector/sky_planet/station_city/power)
-"Ss" = (
-/obj/structure/table/standard,
-/obj/random/toolbox,
-/obj/random/toolbox,
-/obj/random/toolbox,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "Su" = (
 /obj/structure/event/prop/yellow_barrel{
 	pixel_x = 9
@@ -1280,6 +1253,11 @@
 /obj/random/tech_supply/component/nofail,
 /turf/simulated/floor/cult,
 /area/sector/sky_planet/rock)
+"Tx" = (
+/obj/machinery/light/no_nightshift,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "Ty" = (
 /obj/effect/debris/cleanable/blood,
 /turf/simulated/floor/outdoors/rocks/outdoors,
@@ -1406,6 +1384,10 @@
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
 /turf/simulated/floor,
 /area/sector/sky_planet/rock)
+"WN" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "WX" = (
 /obj/item/paper{
 	info = "Congratulation on the purchase of your new Car ! :D Drive carefully c:";
@@ -1432,6 +1414,13 @@
 /mob/living/simple_mob/mechanical/corrupt_maint_drone/matriarch,
 /turf/simulated/floor,
 /area/sector/sky_planet/outpost)
+"Xq" = (
+/obj/structure/table/standard,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "Xx" = (
 /obj/structure/event/prop/mining_truck,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
@@ -1453,6 +1442,10 @@
 /obj/structure/simple_door/cult,
 /turf/simulated/floor/cult,
 /area/sector/sky_planet/rock)
+"Yq" = (
+/obj/machinery/suit_storage_unit,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "YD" = (
 /obj/structure/fence/wooden/post{
 	dir = 4
@@ -1463,14 +1456,21 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor,
 /area/sector/sky_planet/outpost)
-"YP" = (
-/obj/machinery/suit_storage_unit,
+"YX" = (
+/obj/structure/table/standard,
+/obj/random/toolbox,
+/obj/random/toolbox,
+/obj/random/toolbox,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost)
 "Zg" = (
 /obj/item/clothing/under/highwayman_clothes,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/sky_planet/ground)
+"Zl" = (
+/obj/machinery/vending/wallmed1/public,
+/turf/simulated/wall/r_wall,
+/area/sector/sky_planet/outpost)
 "Zn" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
@@ -10318,13 +10318,13 @@ Qm
 gV
 gV
 gV
-YP
+Yq
 HT
-Ss
-AR
-LV
+YX
+Xq
+QD
 HT
-zQ
+WN
 gV
 gV
 gV
@@ -10512,13 +10512,13 @@ gV
 gV
 gV
 gV
-yH
+oa
 HT
 HT
 HT
 HT
 HT
-cN
+Tx
 gV
 gV
 gV
@@ -10706,13 +10706,13 @@ gV
 gV
 gV
 gV
-YP
+Yq
 HT
 HT
 HT
 HT
 HT
-eA
+aK
 gV
 gV
 gV
@@ -10901,11 +10901,11 @@ oG
 oG
 gV
 gV
-fN
-ib
-ib
-ib
-fN
+Dk
+zx
+zx
+zx
+Dk
 gV
 gV
 oG
@@ -11479,19 +11479,19 @@ jr
 Qm
 gV
 gV
-Mp
+IJ
 nA
 gV
 gV
-pI
+Zl
 HT
 HT
 HT
 HT
-NC
+FQ
 gV
 nA
-Mp
+IJ
 gV
 gV
 Qm
