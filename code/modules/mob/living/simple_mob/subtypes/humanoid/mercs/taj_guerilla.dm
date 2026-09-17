@@ -332,24 +332,6 @@
 
 	loot_list = list(/obj/item/gun/projectile/ballistic/automatic/automat/taj = 100)
 
-/mob/living/simple_mob/humanoid/taj_guerilla/insurgent/bullpup
-	name = "Tajara Insurgent Revolutionary"
-	desc = "A masked insurgent with a bullpup rifle. The revolution demands superior firepower and someone delivered."
-	icon_state = "pra_revolutionary"
-	icon_living = "pra_revolutionary"
-
-	projectiletype = /obj/projectile/bullet/rifle/a95
-	projectilesound = 'sound/weapons/Gunshot_generic_rifle.ogg'
-	base_attack_cooldown = 6 //May get nerfed, these guys do more damage then 762 rifles
-
-	needs_reload = TRUE
-	reload_max = 45
-
-	ai_holder_type = /datum/ai_holder/polaris/simple_mob/merc/ranged
-
-	loot_list = list(/obj/item/gun/projectile/ballistic/automatic/k25/taj = 100)
-
-
 /mob/living/simple_mob/humanoid/taj_guerilla/insurgent/shotgun
 	name = "Tajara Insurgent Robber"
 	desc = "A masked insurgent with a doublebarrel shotgun. Even simple weapons can be powerful in the hands of the right people."
