@@ -451,10 +451,6 @@
 "bM" = (
 /turf/simulated/shuttle/wall/voidcraft/red/hard_corner,
 /area/turbolift/skyplanet_city/upper)
-"bO" = (
-/obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "bQ" = (
 /obj/structure/lightpost/urban,
 /turf/simulated/floor/tiled/monotechmaint,
@@ -554,10 +550,6 @@
 /obj/map_helper/paint_stripe/cyanblue,
 /turf/simulated/wall/r_wall,
 /area/sector/sky_planet/station_city/medical)
-"cr" = (
-/obj/effect/floor_decal/rust,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "cs" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/wood/indoors,
@@ -1634,9 +1626,6 @@
 /obj/structure/sandbag,
 /turf/simulated/floor/tiled/monodark,
 /area/sector/sky_planet/station_city/street)
-"gI" = (
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "gK" = (
 /turf/simulated/wall/r_wall,
 /area/sector/sky_planet/station_city/appartement3)
@@ -3999,6 +3988,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost/security)
+"pz" = (
+/obj/effect/floor_decal/rust,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
 "pB" = (
 /obj/spawner/window/low_wall/reinforced/firelocks,
 /turf/simulated/floor/tiled/techfloor,
@@ -4157,6 +4150,11 @@
 "pY" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/racing_station/dock)
+"pZ" = (
+/obj/effect/floor_decal/rust,
+/obj/machinery/portable_atmospherics/hydroponics,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
 "qa" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/machinery/light,
@@ -4382,10 +4380,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost/docking_port1)
 "qM" = (
-/obj/structure/lattice,
-/obj/structure/lattice,
-/turf/simulated/open/skyplanet,
-/area/sector/sky_planet/sky)
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
 "qO" = (
 /obj/machinery/light/poi,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -5555,13 +5551,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo/white,
 /area/sector/sky_planet/racing_station/lounge)
-"vW" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "vY" = (
 /obj/machinery/light{
 	dir = 1
@@ -7931,6 +7920,20 @@
 /obj/structure/flora/fey/grass/grass1,
 /turf/simulated/floor/fey/forest_grass,
 /area/sector/sky_planet/station_city/appartement)
+"EH" = (
+/obj/effect/floor_decal/rust,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
+"EI" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
 "EJ" = (
 /obj/structure/table/rack/shelf/steel,
 /obj/random/mre,
@@ -8289,13 +8292,6 @@
 /obj/structure/fitness/punchingbag,
 /turf/simulated/floor/carpet,
 /area/sector/sky_planet/station_city/dock)
-"FR" = (
-/obj/effect/floor_decal/rust,
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "FT" = (
 /obj/structure/window/wooden{
 	dir = 1
@@ -9300,11 +9296,6 @@
 /obj/random/coin,
 /turf/simulated/floor/outdoors/ash_sand/indoors,
 /area/sector/sky_planet/rock)
-"Jx" = (
-/obj/effect/floor_decal/rust,
-/obj/machinery/portable_atmospherics/hydroponics,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "Jy" = (
 /obj/random/multiple/corp_crate/no_weapons,
 /turf/simulated/floor/tiled/techfloor,
@@ -10642,6 +10633,10 @@
 /obj/structure/table/hardwoodtable,
 /turf/simulated/floor/wood/indoors,
 /area/sector/sky_planet/station_city/appartement)
+"OK" = (
+/obj/machinery/portable_atmospherics/hydroponics,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
 "OL" = (
 /obj/item/stack/material/steel,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -12618,10 +12613,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/sector/sky_planet/station_city/restaurant)
-"Wd" = (
-/obj/machinery/door/airlock/multi_tile/glass,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/sector/sky_planet/outpost/docking_port1)
 "Wf" = (
 /turf/simulated/floor/carpet/patterened/blue,
 /area/sector/sky_planet/station_city/appartement2)
@@ -13186,6 +13177,10 @@
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/rock)
+"Yw" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/sector/sky_planet/outpost/docking_port1)
 "Yx" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/wood/indoors,
@@ -22388,12 +22383,12 @@ qr
 qr
 iz
 iz
-bO
-bO
+OK
+OK
 Oa
-Jx
+pZ
 Bh
-bO
+OK
 iz
 iz
 iz
@@ -22581,8 +22576,8 @@ qr
 qr
 iz
 iz
-bO
-gI
+OK
+qM
 xy
 vx
 vx
@@ -22775,7 +22770,7 @@ os
 He
 iz
 Fb
-gI
+qM
 vx
 vx
 vx
@@ -22783,7 +22778,7 @@ vx
 vx
 YL
 iz
-vW
+EI
 Pl
 iz
 qr
@@ -22968,7 +22963,7 @@ Qp
 Qp
 os
 iz
-bO
+OK
 vx
 YL
 YL
@@ -23172,7 +23167,7 @@ Ig
 ah
 iz
 nK
-cr
+pz
 Cs
 oA
 ho
@@ -23745,7 +23740,7 @@ Qp
 os
 ah
 hF
-gI
+qM
 vx
 vx
 vx
@@ -23753,7 +23748,7 @@ xy
 xy
 pV
 xy
-gI
+qM
 WL
 iz
 qr
@@ -23940,13 +23935,13 @@ He
 iz
 iz
 iK
-gI
+qM
 xy
 xy
 AR
 nG
 XS
-gI
+qM
 qI
 iz
 iz
@@ -27045,10 +27040,10 @@ qr
 iz
 iz
 Wg
-gI
+qM
 xy
 IA
-gI
+qM
 fw
 iz
 iz
@@ -27238,12 +27233,12 @@ os
 iz
 iz
 Xf
-FR
+EH
 ts
 ts
 Tl
 xy
-gI
+qM
 Jv
 iz
 iz
@@ -27429,16 +27424,16 @@ Qp
 Qp
 Qp
 os
-Wd
+Yw
 zg
-gI
+qM
 xy
 xy
 iz
 iz
 xy
 xy
-gI
+qM
 zt
 RB
 os
@@ -27623,16 +27618,16 @@ Qp
 Qp
 Qp
 os
-gI
+qM
 zg
-gI
+qM
 xy
 xy
 iz
 iz
 xy
 xy
-cr
+pz
 zt
 vx
 os
@@ -27820,12 +27815,12 @@ He
 iz
 iz
 KU
-gI
+qM
 xy
 xy
 xy
 xy
-gI
+qM
 Tw
 iz
 iz
@@ -44054,7 +44049,7 @@ eP
 eP
 eP
 eP
-qM
+eP
 He
 Qp
 Qp
@@ -46188,7 +46183,7 @@ eP
 eP
 eP
 eP
-qM
+eP
 He
 Qp
 Qp

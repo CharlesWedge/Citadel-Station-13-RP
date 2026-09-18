@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/machinery/vending/wallmed1/public{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall,
+/area/sector/sky_planet/outpost)
 "ai" = (
 /turf/simulated/floor/water/blood,
 /area/sector/sky_planet/rock)
@@ -23,10 +29,6 @@
 	},
 /turf/simulated/floor/outdoors/rocks/outdoors,
 /area/sector/sky_planet/ground)
-"aK" = (
-/obj/structure/dispenser/oxygen,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "aT" = (
 /obj/structure/salvageable/data_os,
 /turf/simulated/floor/tiled/monotechmaint,
@@ -38,6 +40,10 @@
 /mob/living/simple_mob/humanoid/taj_guerilla/insurgent/bullpup,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/station_city/power)
+"bq" = (
+/obj/spawner/window/low_wall/firelocks,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "br" = (
 /turf/simulated/floor/water/acid/outdoors,
 /area/sector/sky_planet/rock)
@@ -125,6 +131,13 @@
 "eJ" = (
 /turf/simulated/shuttle/wall/voidcraft/green,
 /area/turbolift/skyplanet_outpost/lower)
+"eQ" = (
+/obj/structure/table/standard,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "fe" = (
 /turf/simulated/wall/solidrock,
 /area/sector/sky_planet/rock)
@@ -191,6 +204,11 @@
 /mob/living/simple_mob/humanoid/taj_guerilla/insurgent/sniper,
 /turf/simulated/floor/tiled/old_tile/gray,
 /area/sector/sky_planet/station_city/power)
+"ir" = (
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "iH" = (
 /obj/structure/event/prop/light3,
 /turf/simulated/floor/outdoors/dirt/indoors,
@@ -328,13 +346,6 @@
 /obj/structure/marker_beacon/green,
 /turf/simulated/floor/outdoors/rocks/outdoors,
 /area/sector/sky_planet/ground)
-"oa" = (
-/obj/machinery/light/no_nightshift{
-	dir = 1
-	},
-/obj/machinery/suit_storage_unit,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "od" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/outdoors/ash_sand/indoors,
@@ -441,6 +452,13 @@
 /obj/random/cash,
 /turf/simulated/floor/tiled/techfloor/monogrid,
 /area/sector/sky_planet/ground)
+"se" = (
+/obj/structure/table/standard,
+/obj/random/toolbox,
+/obj/random/toolbox,
+/obj/random/toolbox,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "si" = (
 /obj/structure/sandbag,
 /obj/machinery/light/flicker,
@@ -471,6 +489,13 @@
 /obj/structure/cult/tome,
 /turf/simulated/floor/cult,
 /area/sector/sky_planet/rock)
+"tG" = (
+/obj/machinery/power/thermoregulator,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/sector/sky_planet/outpost)
 "tI" = (
 /turf/simulated/shuttle/wall/voidcraft/red/hard_corner,
 /area/turbolift/skyplanet_city/lower)
@@ -626,8 +651,8 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/water/acid/outdoors,
 /area/sector/sky_planet/ground)
-"zx" = (
-/obj/spawner/window/low_wall/firelocks,
+"zr" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost)
 "Am" = (
@@ -716,10 +741,6 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/indoors,
 /area/sector/sky_planet/outpost)
-"Dk" = (
-/obj/machinery/door/airlock/glass/civilian,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "DG" = (
 /obj/machinery/power/rtg/advanced,
 /turf/simulated/floor/outdoors/dirt/indoors,
@@ -795,12 +816,6 @@
 "FM" = (
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/sky_planet/rock)
-"FQ" = (
-/obj/machinery/vending/wallmed1/public{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall,
-/area/sector/sky_planet/outpost)
 "FV" = (
 /turf/simulated/wall/r_wall,
 /area/sector/sky_planet/rock)
@@ -831,6 +846,10 @@
 "GT" = (
 /mob/living/simple_mob/mechanical/corrupt_maint_drone,
 /turf/simulated/floor,
+/area/sector/sky_planet/outpost)
+"Hw" = (
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost)
 "Hz" = (
 /obj/machinery/door/airlock,
@@ -872,6 +891,18 @@
 /obj/structure/flora/rock/alternative_1,
 /turf/simulated/floor/outdoors/dirt/outdoors,
 /area/sector/sky_planet/ground)
+"It" = (
+/obj/machinery/light/no_nightshift{
+	dir = 1
+	},
+/obj/machinery/suit_storage_unit,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
+"ID" = (
+/obj/machinery/light/no_nightshift,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "IG" = (
 /obj/structure/flora/rock/alternative_1,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
@@ -880,13 +911,6 @@
 /obj/machinery/sleeper/survival_pod,
 /turf/simulated/floor/tiled/techfloor/virgo2,
 /area/sector/sky_planet/ground)
-"IJ" = (
-/obj/machinery/power/thermoregulator,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/simulated/floor,
-/area/sector/sky_planet/outpost)
 "IW" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/tiled/techfloor,
@@ -1127,9 +1151,8 @@
 /obj/effect/floor_decal/industrial/halfstair,
 /turf/simulated/floor/outdoors/dirt/indoors,
 /area/sector/sky_planet/station_city/power)
-"QD" = (
-/obj/structure/table/standard,
-/obj/machinery/cell_charger,
+"Qv" = (
+/obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled/techfloor,
 /area/sector/sky_planet/outpost)
 "QE" = (
@@ -1253,11 +1276,6 @@
 /obj/random/tech_supply/component/nofail,
 /turf/simulated/floor/cult,
 /area/sector/sky_planet/rock)
-"Tx" = (
-/obj/machinery/light/no_nightshift,
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "Ty" = (
 /obj/effect/debris/cleanable/blood,
 /turf/simulated/floor/outdoors/rocks/outdoors,
@@ -1334,6 +1352,10 @@
 /mob/living/simple_mob/mechanical/mecha/ripley/pirate/manned,
 /turf/simulated/floor,
 /area/sector/sky_planet/rock)
+"UR" = (
+/obj/machinery/suit_storage_unit,
+/turf/simulated/floor/tiled/techfloor,
+/area/sector/sky_planet/outpost)
 "UW" = (
 /obj/effect/floor_decal/industrial/danger,
 /turf/simulated/floor/tiled/steel_dirty/indoors,
@@ -1384,10 +1406,6 @@
 /obj/spawner/window/low_wall/borosillicate/reinforced/firelocks,
 /turf/simulated/floor,
 /area/sector/sky_planet/rock)
-"WN" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "WX" = (
 /obj/item/paper{
 	info = "Congratulation on the purchase of your new Car ! :D Drive carefully c:";
@@ -1415,11 +1433,8 @@
 /turf/simulated/floor,
 /area/sector/sky_planet/outpost)
 "Xq" = (
-/obj/structure/table/standard,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/turf/simulated/floor/tiled/techfloor,
+/obj/machinery/vending/wallmed1/public,
+/turf/simulated/wall/r_wall,
 /area/sector/sky_planet/outpost)
 "Xx" = (
 /obj/structure/event/prop/mining_truck,
@@ -1442,10 +1457,6 @@
 /obj/structure/simple_door/cult,
 /turf/simulated/floor/cult,
 /area/sector/sky_planet/rock)
-"Yq" = (
-/obj/machinery/suit_storage_unit,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "YD" = (
 /obj/structure/fence/wooden/post{
 	dir = 4
@@ -1456,21 +1467,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor,
 /area/sector/sky_planet/outpost)
-"YX" = (
-/obj/structure/table/standard,
-/obj/random/toolbox,
-/obj/random/toolbox,
-/obj/random/toolbox,
-/turf/simulated/floor/tiled/techfloor,
-/area/sector/sky_planet/outpost)
 "Zg" = (
 /obj/item/clothing/under/highwayman_clothes,
 /turf/simulated/floor/outdoors/ash_sand/outdoors,
 /area/sector/sky_planet/ground)
-"Zl" = (
-/obj/machinery/vending/wallmed1/public,
-/turf/simulated/wall/r_wall,
-/area/sector/sky_planet/outpost)
 "Zn" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
@@ -10318,13 +10318,13 @@ Qm
 gV
 gV
 gV
-Yq
+UR
 HT
-YX
-Xq
-QD
+se
+eQ
+ir
 HT
-WN
+zr
 gV
 gV
 gV
@@ -10512,13 +10512,13 @@ gV
 gV
 gV
 gV
-oa
+It
 HT
 HT
 HT
 HT
 HT
-Tx
+ID
 gV
 gV
 gV
@@ -10706,13 +10706,13 @@ gV
 gV
 gV
 gV
-Yq
+UR
 HT
 HT
 HT
 HT
 HT
-aK
+Hw
 gV
 gV
 gV
@@ -10901,11 +10901,11 @@ oG
 oG
 gV
 gV
-Dk
-zx
-zx
-zx
-Dk
+Qv
+bq
+bq
+bq
+Qv
 gV
 gV
 oG
@@ -11479,19 +11479,19 @@ jr
 Qm
 gV
 gV
-IJ
+tG
 nA
 gV
 gV
-Zl
+Xq
 HT
 HT
 HT
 HT
-FQ
+ad
 gV
 nA
-IJ
+tG
 gV
 gV
 Qm
