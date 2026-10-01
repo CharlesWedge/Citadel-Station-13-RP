@@ -5,10 +5,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"ak" = (
-/obj/machinery/mineral/stacking_unit_console,
-/turf/simulated/wall/sandstone,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "aq" = (
 /obj/structure/closet,
 /obj/item/clothing/under/rank/miner,
@@ -3061,7 +3057,7 @@ LC
 yL
 zY
 IA
-ak
+zY
 yL
 HK
 yL
