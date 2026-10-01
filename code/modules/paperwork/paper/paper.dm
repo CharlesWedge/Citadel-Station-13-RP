@@ -659,7 +659,7 @@
 	4. Scori must consent to vaccination before entering station. Two vaccinations are provided, one is to be applied before boarding, one upon leaving the station. <br> \
 	5. Crew must obtain specific consent from the Scori for vaccination. Injecting Scori without consent may cause unwanted tensions. <br> \
 	6. Crew must escort visiting Scori through the station. Visiting Scori are considered outsider visitors for terms of access and should not be let into secure areas. <br> \
-	7. Crew must make sure the Scori must got interact with the following hazards: Alcoholic Drinks, Tobacco Products, Ambrosia Products, Narcotics, Caustic or Toxic Chemicals, \
+	7. Crew must ensure that Scori do not interact with the following hazards: Alcoholic Drinks, Tobacco Products, Ambrosia Products, Narcotics, Caustic or Toxic Chemicals, \
 	Nuclear Radiation, Mechs, and Anomalous Artifacts. <br> \
 	8. Crew is to only feed the Scori small portions of station food until we have better understanding of the Scori diet and stomach. Do not give our new friends food poisoning. <br><br> \
 	Remember it is imperative that we put our best food forward with the Scori. Cultural misunderstandings may undo months of work to further the friendship between our peoples. \
