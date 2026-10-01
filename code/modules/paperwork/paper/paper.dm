@@ -649,7 +649,7 @@
 /obj/item/paper/lavaland/hamikit
 	name = "INSTRUCTIONS FOR USE OF HAMI KITS"
 	info = "<center><logo><br>\
-	<b>This is official Nanotrasen policy for the use of HAMI kits please make sure the following points are followed at all times failure to do so may result \
+	<b>This is official Nanotrasen policy for the use of HAMI kits. Please make sure the following points are followed at all times. Failure to do so may result \
 	in harm to both the crew and the Scori. You may be held liable for failures to obey HAMI policy under Nanotrasen Corporate Regulations. </b><br><br> \
 	1. HAMI kits must only be given to trusted Scori. Exceptionally trusted Scori may vouch for Scori unfamiliar to the crew. Be mindful the Scori are not entitled to \
 	see the station. <br> \
