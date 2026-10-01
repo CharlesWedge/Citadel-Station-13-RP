@@ -109,12 +109,6 @@
 	outdoors = 1
 	},
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"fC" = (
-/obj/structure/stairs/top{
-	dir = 1
-	},
-/turf/simulated/mineral/floor/cave,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "fO" = (
 /obj/effect/floor_decal/tracks{
 	dir = 1
@@ -240,10 +234,6 @@
 /obj/structure/sign/directions/evac,
 /turf/simulated/wall/sandstone,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"ll" = (
-/obj/structure/stairs/middle,
-/turf/simulated/mineral/floor/cave,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "lx" = (
 /obj/structure/simple_door/wood,
 /turf/simulated/floor/tiled/old_cargo/gray,
@@ -318,12 +308,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"oN" = (
-/obj/structure/stairs/middle{
-	dir = 1
-	},
-/turf/simulated/mineral/floor/cave,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "oR" = (
 /obj/effect/floor_decal/tracks/t_north{
 	dir = 9
@@ -345,11 +329,6 @@
 /turf/simulated/floor/tiled/asteroid_steel{
 	outdoors = 1
 	},
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
-"qg" = (
-/obj/structure/stairs/bottom,
-/obj/structure/boulder,
-/turf/simulated/mineral/floor/cave,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
 "qj" = (
 /obj/structure/table/rack,
@@ -421,11 +400,6 @@
 	},
 /turf/simulated/mineral/floor/cave,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"tf" = (
-/obj/structure/stairs/top,
-/obj/structure/boulder,
-/turf/simulated/mineral/floor/cave,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "tg" = (
 /obj/structure/closet,
 /obj/random/contraband,
@@ -477,13 +451,6 @@
 /obj/random/mob/spider/mutant,
 /turf/simulated/mineral/floor/cave,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
-"uI" = (
-/obj/structure/stairs/top{
-	dir = 4
-	},
-/obj/structure/barricade/miaphus/tentleatheredge,
-/turf/simulated/mineral/floor/cave,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
 "vx" = (
 /obj/structure/table/rack/shelf,
 /obj/item/grenade/simple/explosive/ied/tyrmalin,
@@ -502,11 +469,6 @@
 "wF" = (
 /obj/structure/barricade/miaphus/tentleatheredge,
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
-"wH" = (
-/obj/structure/stairs/middle,
-/obj/random/humanoidremains,
-/turf/simulated/mineral/floor/cave,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
 "wJ" = (
 /obj/structure/fence{
@@ -679,13 +641,10 @@
 /turf/simulated/floor/tiled/old_cargo/gray,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
 "EZ" = (
-/obj/structure/stairs/middle{
-	dir = 1
-	},
 /obj/structure/fence{
 	dir = 8
 	},
-/turf/simulated/mineral/floor/cave,
+/turf/simulated/floor/tiled/old_cargo/gray,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
 "Fg" = (
 /obj/effect/floor_decal/tracks,
@@ -827,12 +786,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/sector/miaphus/beach/desert/poi/bandit_mines)
-"KC" = (
-/obj/structure/stairs/top{
-	dir = 4
-	},
-/turf/simulated/mineral/floor/cave,
 /area/sector/miaphus/beach/desert/poi/bandit_mines)
 "KX" = (
 /obj/effect/floor_decal/tracks{
@@ -1480,8 +1433,8 @@ QE
 IA
 IA
 gq
-qg
-ll
+gq
+gq
 rE
 mb
 Xe
@@ -1584,8 +1537,8 @@ QE
 IA
 IA
 gq
-tf
-wH
+gq
+rE
 mb
 py
 mb
@@ -2187,8 +2140,8 @@ IT
 IT
 xC
 zY
-KC
-KC
+mb
+mb
 zY
 IA
 QE
@@ -2281,7 +2234,7 @@ mb
 mb
 Mq
 EZ
-fC
+Sy
 mb
 xG
 UL
@@ -2366,7 +2319,7 @@ yL
 yL
 yL
 yL
-oN
+mb
 py
 mb
 GW
@@ -2385,16 +2338,16 @@ mb
 py
 mb
 EZ
-fC
+Sy
 mb
 py
 mb
 zY
 zY
-KC
-uI
-KC
-KC
+yL
+wF
+yL
+yL
 zY
 IA
 IA
@@ -2418,7 +2371,7 @@ yL
 yL
 yL
 yL
-oN
+mb
 py
 mb
 GW
@@ -3099,8 +3052,8 @@ py
 mb
 yL
 rD
-oN
-fC
+yL
+yL
 LC
 yL
 yL
@@ -3151,8 +3104,8 @@ fe
 mb
 Gz
 rD
-oN
-fC
+yL
+yL
 yL
 yL
 yL
