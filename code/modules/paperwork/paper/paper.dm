@@ -656,7 +656,7 @@
 	2. Scori must relinquish long blades, axes, spears, firearms and pyrotechnic devices before being brought onto station. <br> \
 	3. Scori should not be brought onto the station while it is in alert status, including blue alert. Scori on the station in an emergency should be evacuated to Surt for their \
 	own safety. <br> \
-	4. Scori must consent to vaccination before entering station. Two vaccinations are provided, one is to be applied before boarding, one upon leaving the station. <br> \
+	4. Scori must consent to vaccination before entering station. Two vaccinations are provided; one is to be applied before boarding the station, and one upon leaving the station. <br> \
 	5. Crew must obtain specific consent from the Scori for vaccination. Injecting Scori without consent may cause unwanted tensions. <br> \
 	6. Crew must escort visiting Scori through the station. Visiting Scori are considered outsider visitors for terms of access and should not be let into secure areas. <br> \
 	7. Crew must ensure that Scori do not interact with the following hazards: Alcoholic Drinks, Tobacco Products, Ambrosia Products, Narcotics, Caustic or Toxic Chemicals, \
