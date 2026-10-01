@@ -654,7 +654,7 @@
 	1. HAMI kits must only be given to trusted Scori. Exceptionally trusted Scori may vouch for Scori unfamiliar to the crew. Be mindful the Scori are not entitled to \
 	see the station. <br> \
 	2. Scori must relinquish long blades, axes, spears, firearms and pyrotechnic devices before being brought onto station. <br> \
-	3. Scori should not be brought onto the station while it is in alert. Even blue alert, Scori on the station in an emergency should be evacuated to Surt for their \
+	3. Scori should not be brought onto the station while it is in alert status, including blue alert. Scori on the station in an emergency should be evacuated to Surt for their \
 	own safety. <br> \
 	4. Scori must consent to vaccination before entering station. Two vaccinations are provided, one is to be applied before boarding, one upon leaving the station. <br> \
 	5. Crew must obtain specific consent from the Scori for vaccination. Injecting Scori without consent may cause unwanted tensions. <br> \
